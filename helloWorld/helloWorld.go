@@ -1,8 +1,15 @@
 package main
 
-import "fmt" // package for formatting text => printing to console
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
+
+// package for formatting text => printing to console
 
 // implementing main function
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(quote.Go())
+	fmt.Println(quote.Hello())
 }
